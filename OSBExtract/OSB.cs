@@ -80,7 +80,7 @@ public static class OSB
                 PCM.ToWav(buffer, startOffset + offset, length, outFile);
             }
 
-            sospOffset += 56;
+            sospOffset += 64;
             index++;
         }
 
